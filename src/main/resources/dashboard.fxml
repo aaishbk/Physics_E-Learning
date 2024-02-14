@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sc.learn.controllers.DashboardController">
+   <children>
+      <AnchorPane id="dashboard-background" prefHeight="800.0" prefWidth="1200.0" stylesheets="@css/styles.css" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <Button fx:id="btnAstronomy" layoutX="297.0" layoutY="80.0" mnemonicParsing="false" onAction="#handleButtonClick" stylesheets="@css/styles.css" text="Astronomy">
+               <styleClass>
+                  <String fx:value="dashboard-button" />
+                  <String fx:value="astrology-button" />
+               </styleClass></Button>
+            <Button fx:id="btnElectricity" layoutX="684.0" layoutY="80.0" mnemonicParsing="false" onAction="#handleButtonClick" stylesheets="@css/styles.css" text="Electricity">
+               <styleClass>
+                  <String fx:value="dashboard-button" />
+                  <String fx:value="electricity-button" />
+               </styleClass></Button>
+            <Button fx:id="btnLaws" layoutX="297.0" layoutY="289.0" mnemonicParsing="false" onAction="#handleButtonClick" stylesheets="@css/styles.css" text="Laws Of Physics">
+               <styleClass>
+                  <String fx:value="dashboard-button" />
+                  <String fx:value="laws-button" />
+               </styleClass></Button>
+            <Button fx:id="btnMechanics" layoutX="684.0" layoutY="289.0" mnemonicParsing="false" onAction="#handleButtonClick" stylesheets="@css/styles.css" text="Mechanics">
+               <styleClass>
+                  <String fx:value="dashboard-button" />
+                  <String fx:value="mechanics-button" />
+               </styleClass></Button>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
